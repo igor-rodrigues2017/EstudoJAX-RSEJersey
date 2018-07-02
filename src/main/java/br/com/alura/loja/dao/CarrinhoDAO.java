@@ -18,7 +18,7 @@ public class CarrinhoDAO {
 		Carrinho carrinho = new Carrinho()
 								.adiciona(videogame)
 								.adiciona(esporte)
-								.para("Rua Vergueiro 3185, 8 andar", "S‹o Paulo")
+								.para("Rua Vergueiro 3185, 8 andar", "SÃ£o Paulo")
 								.setId(1l);
 		banco.put(1l, carrinho);
 	}
